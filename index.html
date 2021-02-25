@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRG Restaurant - Home</title>
+
+  <!-- Meta Tags -->
+  <!-- See: https://css-tricks.com/essential-meta-tags-social-media/ -->
+  <!-- Facebook -->
+  <meta property="og:title" content="BRG Restaurant">
+  <meta property="og:description" content="BRG Restaurant - the best restaurant in the town">
+  <meta property="og:image" content="https://brgrestaurant.netlify.app/img/banner.jpg">
+  <meta property="og:url" content="https://brgrestaurant.netlify.app/index.html">
+
+  <!-- Twitter -->
+  <meta name="twitter:title" content="BRG Restaurant">
+  <meta name="twitter:description" content="BRG Restaurant - the best restaurant in the town">
+  <meta name="twitter:image" content="https://brgrestaurant.netlify.app/img/banner.jpg">
+  <meta name="twitter:card" content="Summary">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.7.0/simple-lightbox.min.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <!-- Boxicons  -->
+  <link rel="stylesheet" href="css/icofont.min.css">
+</head>
+<body>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a href="/ktm-restaurant/" class="navbar-brand"><img src="/img/ktm-resta.png" class="img-fluid"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <i class="icofont-listing-box"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item"><a class="nav-link font-primary text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link font-primary text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link font-primary text-white" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link font-primary text-white" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link font-primary text-white" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link font-primary text-white" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- banner -->
+  <header id="home" class="masthead wow fadeInUp">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-12 caption-wrapper">
+          <h1 class="hero-text text-uppercase text-white font-weight-bold">
+            Kathmandu Restaurant
+          </h1>
+          <p class="tagline font-primary text-yellow">
+            High quality fresh ingredients | Excellent service and Friendly staff.
+          </p>
+          <div class="font-primary">
+            <a href="#menu" class="btn btn-outline-light btn-xl px-4 py-2" role="button">Our Menu</a>
+            <a href="#contact" class="btn btn-info btn-xl px-4 py-2 ml-2" role="button">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- about us -->
+  <section id="about" class="bg-light py-7 wow fadeInUp">
+    <div class="container">
+      <h2 class="text-center">About Us</h2>
+      <p class="font-primary text-center">
+        One of the finest Nepalese restaurant in the vicinity of Kathmandu valley.
+      </p>
+      <hr class="w-50 text-center mb-4">
+      <div class="row">
+        <div class="col-md-5 info-img shadow rounded"></div>
+        <div class="col-md-7 info-about">
+          <p class="font-secondary font-weight-light pl-md-4 text-justify">
+            Our restaurant is best known for its outstanding Nepalese Cuisine, excellent staff service with
+            livery ambience. Kathmandu Restaurant prepares everything fresh using the best quality
+            ingredients and the freshest vegetables. Each dish represents flavor, pleasure, affection
+            and essence.
+            <br /><br />
+            At Kathmandu Restaurant we blend taste and emotion into a one of a kind delightful experience.
+            Our restaurant offers Lunch buffet, dinner, takeout for our valuable customers.
+          </p>
+          <div class="about-actions font-primary pl-md-4 text-center">
+            <a href="#gallery" role="button" class="btn btn-outline-secondary">View Gallery</a>
+            <a href="#contact" role="button" class="btn btn-success ml-4">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- menu -->
+  <section id="menu" class="menu py-7">
+    <div class="container">
+      <div class="section-title text-center mb-3">
+        <h2>Our tasty <span class="color-primary">Menu</span></h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="menu-filters">
+            <li data-filter="*" class="filter-active">Show All</li>
+            <li data-filter=".filter-starters">Starters</li>
+            <li data-filter=".filter-thalis">Thalis</li>
+            <li data-filter=".filter-specialty">Specialty</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row menu-container">
+        <div class="col-lg-6 menu-item filter-starters">
+          <div class="menu-content">
+            <a href="#">Vegetable Samosa</a><span>$4</span>
+          </div>
+          <div class="menu-ingredients">
+            Deep fried crisp flour patties filled with a delicious blend of spiced potatoes & peas
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty">
+          <div class="menu-content">
+            <a href="#">Fried Vegetable Momo</a><span>$10</span>
+          </div>
+          <div class="menu-ingredients">
+            Fried vegetable dumplings stuffed with cabbage, cilantro and red onions
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-starters">
+          <div class="menu-content">
+            <a href="#">Onion Bajji</a><span>$5</span>
+          </div>
+          <div class="menu-ingredients">
+            Chopped onions coated in spiced chickpea flour batter and deep fried
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-starters">
+          <div class="menu-content">
+            <a href="#">Samosa Chaat</a><span>$8</span>
+          </div>
+          <div class="menu-ingredients">
+            Crushed Samosas served with a mixture of yogurt & spiced chickpea salad
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-thalis">
+          <div class="menu-content">
+            <a href="#">Vegetarian Thali</a><span>$14</span>
+          </div>
+          <div class="menu-ingredients">
+            Thali meal with vegetarian entree selections
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty">
+          <div class="menu-content">
+            <a href="#">Chicken Thukpa Soup</a><span>$12</span>
+          </div>
+          <div class="menu-ingredients">
+            Traditional Nepali style chicken noodle soup
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-starters">
+          <div class="menu-content">
+            <a href="#">Gobi Manchurian</a><span>$10</span>
+          </div>
+          <div class="menu-ingredients">
+            An Indo-Chinese dish of cauliflower coated in spices and sauteed with spring onions
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-thalis">
+          <div class="menu-content">
+            <a href="#">Chicken Thali</a><span>$16</span>
+          </div>
+          <div class="menu-ingredients">
+            Thali meal with chicken entree selections
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-thalis">
+          <div class="menu-content">
+            <a href="#">Goat Thali</a><span>$18</span>
+          </div>
+          <div class="menu-ingredients">
+            Thali meal with goat entree selections
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty">
+          <div class="menu-content">
+            <a href="#">Chicken Sekuwa</a><span>$16</span>
+          </div>
+          <div class="menu-ingredients">
+            Boneless chicken marinated in a mixture of ginger, garlic, blended spices and
+            barbequed in a traditional tandoor oven
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- call to action -->
+  <section id="call-to-action" class="py-7 wow fadeInUp">
+    <div class="container">
+      <div class="row justify-content-center text-center py-5">
+        <div class="col-md-6">
+          <h1 class="text-center text-white">Place your order online for easiest ordering experience, Order Now!</h1>
+          <a href="#" onClick="return false;" role="button" class="btn btn-danger mt-4">
+            Give a call to order <i class="fa fa-phone"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- gallery -->
+  <section id="gallery" class="py-7 wow fadeInUp">
+    <div class="container">
+      <h2 class="text-center">Gallery</h2>
+      <p class="font-primary text-center">
+        Some of our delicious cuisines.
+      </p>
+      <hr class="w-50 text-center mb-4">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-2">
+          <a class="gallery-box" href="/img/food-1.jpg">
+            <img class="img-fluid" src="/img/food-1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-2">
+          <a class="gallery-box" href="/img/food-2.jpg">
+            <img class="img-fluid" src="/img/food-2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-2">
+          <a class="gallery-box" href="/img/food-3.jpg">
+            <img class="img-fluid" src="/img/food-3.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-2">
+          <a class="gallery-box" href="/img/food-4.jpg">
+            <img class="img-fluid" src="/img/food-4.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-2">
+          <a class="gallery-box" href="/img/food-5.jpg">
+            <img class="img-fluid" src="/img/food-5.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-2">
+          <a class="gallery-box" href="/img/food-6.jpg">
+            <img class="img-fluid" src="/img/food-6.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <div id="testimonials" class="py-8 carousel slide bg-dark" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+      <li data-target="#testimonials" data-slide-to="1"></li>
+      <li data-target="#testimonials" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="carousel-item text-center active">
+              <h3>Dipesh Ghimire</h3>
+              <p class="color-primary">Facebook Review</p>
+              <div class="stars">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+              </div>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                This place is unreal. Some of the best Indian food I’ve ever had. We tried four different
+                dishes as well as three kinds of bread. It was more food than was needed for four people but
+                we really wanted to try everything. I HIGHLY recommend this place.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+
+            <div class="carousel-item text-center">
+              <h3>Sagar Gurung</h3>
+              <p class="color-primary">Yelp Review</p>
+              <div class="stars">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+              </div>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Authentic food of the region, decent prices, and the owner is so friendly and active in running the
+                restaurant. I recommend both the lamb and goat. So tender, and not flamingly hot unless you ask for
+                it to be hot.
+                <br>
+                Prepare for interesting parking, but it's worth it. Absolutely worth it!!!
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+
+            <div class="carousel-item text-center">
+              <h3>Jyoti Bhattarai</h3>
+              <p class="color-primary">Google Review</p>
+              <div class="stars">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+              </div>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Kathmandu has great food, and they're moving to a new location in Windsor Heights soon which should
+                upgrade the ambience. Try the Gobi Manchuri - breaded cauliflower with a spicy sauce. It's a great
+                appetizer! Everything we've tried has been spot-on and delicious. Would highly recommend!
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <section id="contact" class="contact py-7">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2><span class="color-primary">Contact</span> Us</h2>
+        <p>Visit our restaurant to give us opportunity to serve you better.</p>
+      </div>
+    </div>
+    <div class="map">
+      <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.071895456892!2d85.30870981498796!3d27.715066382788752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18fce1281051%3A0xcaf356bb679de4de!2sNepal%20Connection!5e0!3m2!1sen!2sin!4v1592914205319!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="container mt-5">
+      <div class="info-wrap">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 info">
+            <i class="icofont-google-map"></i>
+            <h4>Location:</h4>
+            <p>Sagarmatha Bazzar, Mandala Street, Kathmandu 44600, Nepal</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+            <i class="icofont-clock-time icofont-rotate-90"></i>
+            <h4>Open Hours:</h4>
+            <p>Monday-Saturday:<br>11:00 AM - 2300 PM</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+            <i class="icofont-envelope"></i>
+            <h4>Email:</h4>
+            <p>anybodycandevelopwebsite@gmail.com</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+            <i class="icofont-phone"></i>
+            <h4>Call:</h4>
+            <p>+977 9876543210</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer-section">
+    <p class="mb-0 text-center">Copyright &copy; 2021. BRG Restaurant. All rights reserved</p>
+  </footer>
+
+  <!-- JavaScripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.7.0/simple-lightbox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

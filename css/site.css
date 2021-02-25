@@ -1,0 +1,289 @@
+h1,h2,h3,h4 {
+  font-family: 'Kaushan Script', cursive;
+}
+.font-primary {
+  font-family: 'Kaushan Script', cursive;
+}
+.font-secondary {
+  font-family: 'Raleway', sans-serif;
+}
+.color-primary {
+  color: #ffb03b !important;
+}
+.bg-primary {
+  background-color: #ffb03b !important;
+}
+.py-7 {
+  padding: 5rem 0;
+}
+.py-8 {
+  padding: 6rem 0;
+}
+.text-yellow {
+  color: yellow;
+}
+
+/* Site CSS */
+html {
+  scroll-behavior: smooth;
+}
+.navbar .navbar-brand {
+  height: 70px;
+}
+.navbar .navbar-brand img {
+  height: 100%;
+}
+.navbar.scrolled {
+  background: #333;
+}
+.navbar .navbar-nav .nav-link.active {
+  color: yellow !important;
+}
+
+/* banner */
+.masthead {
+  background: url("../img/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.masthead .caption-wrapper {
+  margin-top: 15rem;
+}
+.masthead .hero-text {
+  font-size: 4rem;
+}
+.masthead .tagline {
+  font-size: 20px;
+}
+
+/* about us */
+#about .info-img {
+  background: url("/img/about.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+#about .info-about {
+  padding: 1rem;
+}
+
+ /* Menu */
+.menu #menu-filters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+.menu #menu-filters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  border: 2px solid #ffb03b;
+  border-radius: 50px;
+}
+.menu #menu-filters li:hover, .menu #menu-filters li.filter-active {
+  color: #fff;
+  background: #ffb03b;
+}
+.menu #menu-filters li:last-child {
+  margin-right: 0;
+}
+.menu .menu-content {
+  margin-top: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.menu .menu-content::after {
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: -4px;
+  z-index: 1;
+  color: #dad8d4;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.menu .menu-content a {
+  padding-right: 10px;
+  background: #fff;
+  position: relative;
+  z-index: 3;
+  font-weight: 700;
+  color: #ff9b08;
+}
+.menu .menu-content span {
+  background: #fff;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+}
+.menu .menu-ingredients {
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Comic Neue", sans-serif;
+  color: #948c81;
+}
+
+/* call to action */
+#call-to-action {
+  background: rgb(33,26,26);
+  background: linear-gradient(121deg, rgba(33,26,26,1) 0%, rgba(64,0,145,1) 90%);
+  min-height: 350px;
+}
+#call-to-action h1 {
+  font-size: 2.5rem;
+}
+
+.events {
+  background: url("/img/events-bg.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.events::before {
+  content: '';
+  background-color: rgba(12, 11, 10, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* testimonials */
+#testimonials {
+  background: url("/img/testimonial-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#testimonials::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(12, 11, 10, 0.7);
+}
+#testimonials .carousel-item h3 {
+  color: #fff;
+}
+#testimonials .carousel-item h5 {
+  color: #ffb03b;
+}
+#testimonials .carousel-item .stars i {
+  color: yellow;
+}
+#testimonials .carousel-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+#testimonials .carousel-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+#testimonials .carousel-item .quote-icon-left, #testimonials .carousel-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 26px;
+}
+#testimonials .carousel-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+
+.contact .info-wrap {
+  padding: 30px;
+}
+
+.contact .info {
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #ffb03b;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #433f39;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #7a7368;
+  word-wrap: break-word;
+}
+
+.contact .info:hover i {
+  background: #ffb03b;
+  color: #fff;
+}
+
+ /* footer css */
+.footer-section {
+  background: #595959;
+}
+.footer-section p {
+  font-size: 13px;
+  color: #fff;
+  line-height: 25px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .navbar .navbar-collapse .navbar-nav {
+    padding: 1rem 0;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-light .navbar-toggler {
+    color: #eee;
+  }
+  .masthead .hero-text {
+    font-size: 2.5rem;
+  }
+  .navbar .navbar-collapse {
+    background: #333;
+  }
+  .navbar .navbar-toggler {
+    border: 1px solid #eee;
+  }
+}
