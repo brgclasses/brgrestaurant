@@ -59,7 +59,7 @@ html {
 
 /* about us */
 #about .info-img {
-  background: url("/img/about.jpg") no-repeat;
+  background: url("../img/about.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
@@ -149,7 +149,7 @@ html {
 }
 
 .events {
-  background: url("/img/events-bg.jpg") center center no-repeat;
+  background: url("../img/events-bg.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -166,7 +166,7 @@ html {
 
 /* testimonials */
 #testimonials {
-  background: url("/img/testimonial-bg.jpg") no-repeat;
+  background: url("../img/testimonial-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   position: relative;

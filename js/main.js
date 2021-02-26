@@ -6,7 +6,7 @@ $(function(){
   var $nav = $(".navbar.fixed-top");
   $(document).scroll(function () {
     var $nav = $(".navbar.fixed-top");
-    if ($(this).scrollTop() > $nav.height() + 200) {
+    if ($(this).scrollTop() > $nav.height() + 50) {
       $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
       $('#toTop').css('display', 'block');
     } else {
